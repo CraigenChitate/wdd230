@@ -1,0 +1,19 @@
+@media only screen and (max-width: 32.5em) {
+    header, footer {
+        border-radius: 10px;
+   
+    }
+   header {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+   
+   h1 {
+       font-size: 1.6rem;
+       margin-left: 1rem;
+   }
+   
+   
+   }
+   
