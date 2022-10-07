@@ -1,0 +1,77 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 64rem) { 
+    nav ul li a {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .main-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "event hero hero spot"
+            "weather hero hero spot"
+            "join news news spot";
+    }
+
+    #event {
+        grid-area: event;
+    }
+    
+    #hero-image{
+        grid-area: hero;
+    }
+    
+    #spotlight {
+        grid-area: spot;
+    }
+    
+    #weather {
+        grid-area: weather;
+    }
+    
+    #join {
+        grid-area: join;
+    }
+    
+    #news-release {
+        grid-area: news;
+        
+    }
+    
+    /* spotlights */
+    section#spotlight {
+        display: block;
+    }
+
+    section#spotlight .spot3 {
+        display:block;
+
+    }
+
+    div .banner-button {
+  
+        top: 630px;
+        right: 365px;
+        
+      }
+     
+      .join-banner {
+        max-width: 470.41px;
+       
+      }
+
+      .discoverImage img:hover {
+        transform: rotate(4deg);;
+        }
+      /* rounded corners - boxmodel */
+
+      form label.sbs {
+        padding: .4rem 0;
+      
+      }
+}
+

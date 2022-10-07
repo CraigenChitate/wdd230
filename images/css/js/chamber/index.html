@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Assignment: Chamber Home Page Build" />
+
+    <title>The Johannesburg Chamber</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/responsive.js"></script>
+    <script defer src="js/join.banner.js"></script>
+    <script defer src="js/weatherapi.js"></script>
+    <script defer src="../js/datetime.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><picture><img class="logo-image" src="images/logo.webp" alt="logo image"  /></picture></a>
+        <button id="hamburgerBtn"><span>&#9776</span><span>☒</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>  
+          <li><a href="#">History</a></li>  
+          <li><a href="#">Products</a></li>
+        </ul>
+      </nav>
+      <br>
+      <div class="current-date"><span id="currentDate"> </span></div>
+    </header>
+    <main> 
+      <div class="main-grid">
+        <section class="item" id="event"><h3>Ribbon Cutting</h3>
+          <p><strong>The Diamond Shack</strong>​</p>
+          <p>Join us for the grand opening of The Diamond Shack, 
+            Monday at 11:00 a.m.</p>
+        </section>
+        <section class="item" id="weather"><h3>Weather</h3>
+          <div class="tempSection">
+            <a href="https://openweathermap.org/" target="_blank"> <img id="weather-icon" src="" alt="weather icon"></a>
+      <p><span id="currentTemp"></span> F°</p></div>
+
+      <div id="weather-desc">
+        --
+      </div>
+   
+    <p>Wind Speed: <span id="windSpeed"></span>/h</p>
+    <p>Wind Chill: <span id="windChill"></span></p>
+  </section>
+        <section class="item" id="join"><button class="join-button" onclick="window.location.href='join.html'"><span>Join Us!</span></button>
+          <p>
+          Discover how to join the Chamber of Commerce and how it will benefit 
+          your organization!
+        </p></section>  
+        
+        <section class="item" id="hero-image">
+          <div class="join-banner"><span id="join-banner"></span></div>
+          <picture >
+            <source class="buenos-aires-img" media= "(max-width: 640px)" srcset="images/buenos aires-640x640w.jpg">
+            <source class="buenos-aires-img"  media="(max-width: 1040px)" srcset="images/buenos aires-905x850w.jpg">
+            
+            <img class="buenos-aires-img" src="images/TheJoburgChamber (1).png" alt="The Johannesburg-banner">
+          </picture>
+        <div class="banner">
+            <button class="banner-button" onclick="window.location.href='join.html'"><span>Join the Chamber!</span></button>
+        </div>
+        
+        </section>
+        <section class="item" id="news-release"><h3>News release</h3>
+        <p>Our services are customer focused therefore we guarantee satisfaction to everyone who visits our offices. At TheJoburgChamber 
+            our customers are our first priority.
+           </p></section>
+        <section class="item" id="spotlight">
+          <div class="spots" id="spot-1"><h3>Mutoro Transport</h3>
+            <picture><img src="images/rsz_track-img.png" alt="track-logo"></picture>
+            <p><em>"We get it there for you!"</em></p>
+          <span>hello@mutorotransport.com</span><span> +27-63-2296-234 | Website</span></div>
+        <div class="spots" id="spot-2"><h3>Coding for kids</h3>
+          <picture><img src="images/rsz_pencil-img.png" alt="pencil-logo"></picture>
+          <p><em>An after school coding instructional program.</em></p>
+      <span>craigen@coding.com</span><span> Website</span></div>
+      <div class="spots" id="spot-3"><h3>Build A Treet</h3>
+        <picture><img src="images/rsz_tree-img.png" alt="tree-logo"></picture>
+        <p><em>Over 10 000 plans!</em></p>
+      <span>craigenchitate7@gmail.com</span><span> +27-62-694-2455 | Website</span></div>
+        </section>
+      </div>
+    </main>
+  
+    <footer>
+    <div class="footer-1">
+      <div class="footer-1-1">
+      <img  class="logo-image-2"
+      src="images/TheJoburgChamber (1).png"
+      alt="logo photo"
+    />
+    <section class="hero-direction">
+      <p><strong>The Johannesburg Chamber</strong></p>
+      <p>#115 Princess Avenue, Benoni</p>
+      <p>🌍 Johannesburg, South Africa</p>
+      <p><a href="https://www.google.com.ar/maps/place/Church+of+Jesus+Christ+of+Latter-day+Saints/@-26.1737688,28.2398105,13z/data=!4m9!1m2!2m1!1sBenoni+Church+of+Christ+of+latter+day+saints!3m5!1s0x1e953d70840fa485:0x13f89326cacdf5e1!8m2!3d-26.1927359!4d28.3114449!15sCixCZW5vbmkgQ2h1cmNoIG9mIENocmlzdCBvZiBsYXR0ZXIgZGF5IHNhaW50cyIDiAEBkgEQY2h1cmNoX29mX2NocmlzdOABAA" target="_blank" class="location-link">🚩 Location Map</a></p>
+  </section>
+  <div class="footer-1-2">
+    <p><strong>Contact us!</strong></p>
+    <p>info@TheJoburg.com</p>
+    <p>📞 Cel. +(27) 62-694-2455</p>
+    <a href="https://www.youtube.com/" target="_blank"><img src="images/rsz_youtube.png" alt="youtube link" class="social-media"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="images/rsz_facebook.png" alt="facebook link" class="social-media"></a>
+    <a href="https://www.instagram.com/" target="_blank"><img src="images/rsz_instagram.png" alt="instagram link" class="social-media"></a>
+  </div>
+</div>
+    <hr>
+    <div class="footer-2">
+      <p><span id="lastyear"> &copy;</span> The Johannesburg Chamber</p> 
+      <p><a href="../index.html" class="melLink">Craigen Chitate</a></p>
+      <p>WDD 230 Project</p>
+      <p><span id="lastmod"></span></p>
+    </div>
+    </div>
+    </footer>
+  </body>
+</html>
