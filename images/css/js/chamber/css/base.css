@@ -172,7 +172,7 @@ body {
     position:fixed;
     opacity: 0.8;
     padding: 0.5rem;
-    color: #2c698d;
+    color: #5b2c8d79;
     background-color: #e3f6f5;
     border: solid 1px #bae8e8;
   
@@ -299,7 +299,7 @@ body {
   
   .join-button:hover {
     background-color:#478d2c;
-    color: white;
+    color: rgba(255, 255, 255, 0.636);
   }
   
   /* banner join the meet and great CSS */
