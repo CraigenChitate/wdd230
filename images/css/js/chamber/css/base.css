@@ -14,22 +14,22 @@ body {
   h1 {
     padding: 1rem;
     font-size: 1.5rem;
-    color: rgba(0, 0, 0, 0.468);
-    text-shadow: 2px 2px #bae7e886;
+    color: rgba(0, 0, 0, 0.26);
+    text-shadow: 2px 2px #bac6e82d;
     text-align: center;
     align-items: center;
   }
   
   h2 {
     font-size: 1.5rem;
-    color: rgba(0, 0, 0, 0.649);
-    text-shadow: 2px 2px #eee3f682;
+    color: rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px #e3eaf651;
   }
   
   h3{
     border-radius: 10px;
-    color: rgba(255, 255, 255, 0.726);
-    background-color: #662c8d;
+    color: rgba(255, 255, 255, 0.395);
+    background-color: #2c438d;
     margin-top: 0.5rem;
     padding: 0;
   }
@@ -47,7 +47,7 @@ body {
   footer {
     padding: 1rem;
     text-align: center;
-    background-color: #262843b2;
+    background-color: #2627439c;
     color: rgba(255, 255, 255, 0.351);
     border-radius: 10px;
     box-shadow: 0 0 20px #777;
@@ -59,7 +59,7 @@ body {
   }
   
   hr {
-    border: 1px solid #2632438d;
+    border: 1px solid #43263d6a;
   }
   
   img {
@@ -298,7 +298,7 @@ body {
   
   
   .join-button:hover {
-    background-color:#2c698d;
+    background-color:#478d2c;
     color: white;
   }
   
@@ -348,7 +348,7 @@ body {
   
   form fieldset {
     margin: 2rem 0;
-    border: 1px solid #2c698d;
+    border: 1px solid #432c8d84;
     background-color: #e3f6f5;
     border-radius: .5rem 2%;
   }
@@ -401,7 +401,7 @@ body {
   }
   
   form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: rgba(2, 0, 128, 0.526) solid 6px;
     
   }
   
@@ -498,13 +498,13 @@ body {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #2c698d;
+    background-color: #2c2e8d9d;
   }
   
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    border: 1px solid #2c698d;
+    border: 1px solid #2c498d71;
     background-color: #e3f6f5;
     padding: 20px;
   
