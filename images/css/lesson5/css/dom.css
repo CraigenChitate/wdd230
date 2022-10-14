@@ -24,7 +24,7 @@ main {
 	margin: 0.5rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 0.5rem;
-	background-color: rgb(131, 184, 243);
+	background-color: rgba(202, 131, 243, 0.496);
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
