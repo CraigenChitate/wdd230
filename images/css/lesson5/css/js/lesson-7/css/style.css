@@ -1,0 +1,34 @@
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid rgba(186, 193, 255, 0.518);
+  }
+
+  body {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+   
+}
+
+h1 {
+    background-color: rgba(164, 191, 246, 0.886);
+    color: rgba(255, 255, 255, 0.337);
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
