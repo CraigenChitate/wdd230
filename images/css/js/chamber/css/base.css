@@ -110,7 +110,7 @@ body {
   }
   
   nav ul li a:hover {
-    color: #bae8e8;
+    color: #c8bae867;
   }
   nav ul.open {
     display: block;
@@ -134,7 +134,7 @@ body {
   }
   
   .melLink:hover, .location-link:hover {
-  color: #bae8e8;
+  color: #c6bae895;
   }
   
   .location-link {
