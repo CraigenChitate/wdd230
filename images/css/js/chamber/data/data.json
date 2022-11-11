@@ -1,0 +1,100 @@
+{
+    "companies": [
+      
+      {
+        "name": "ABSA GROUP",
+        "addres": "Absa Towers, Rosebank",
+        "phone": "(+27 013) 4769-0109",
+        "email": "absa@africa.com",
+        "web": "http://www.absa.com",
+        "membership": "gold",
+        "imageUrl":"directory-img/absa.jfif"
+       
+      },
+
+      {
+        "name": "Luno",
+        "addres": "Capetown",
+        "phone": "(+021) 4555-4444",
+        "email": "admin@luno.co.za",
+        "web": "https://www.luno.co.za",
+        "membership": "gold",
+        "imageUrl":"directory-img/luno.jpg"
+    
+      },
+
+      {
+        "name": "Takealot",
+        "addres": "Stelenbosch, Stelenbosch",
+        "phone": "(+27 021 346 789",
+        "email": "info@takealot.co.za",
+        "web": "https://www.takealot.co.za",
+        "membership": "gold",
+        "imageUrl":"directory-img/takealot.jfif"
+        
+      },
+      {
+        "name": "Vodacom",
+        "addres": "Johannesburg, Sandton",
+        "phone": "( 011) 2356788",
+        "email": "info@vodacom.co.za",
+        "web": "http://www.vodacom.com",
+        "membership": "silver",
+        "imageUrl":"directory-img/picture1.jpg"
+        
+      },
+      {
+        "name": "Afrihost",
+        "addres": "Johannesburg, Sandton",
+        "phone": "(+27 013 456 875",
+        "email": "support@afrihost.co.za",
+        "web": "http://www.afrihost.za",
+        "membership": "silver",
+        "imageUrl":"directory-img/picture2.jpg"
+        
+      },
+      {
+        "name": "Cell C",
+        "addres": "Johannesburg",
+        "phone": "( 021) 4218-1500",
+        "email": "infor@cellc.co.za",
+        "web": "https://www.cellc.co.za",
+        "membership": "bronze",
+        "imageUrl":"directory-img/picture3.jpg"
+        
+      },
+      
+      {
+        "name": "Rain",
+        "addres": "Johannesburg",
+        "phone": "(+27 011 365 5678",
+        "email": "support@rain.co.za",
+        "web": "https://www.rain.co.za",
+        "membership": "bronze",
+        "imageUrl":"directory-img/Rain-5G.webp"
+        
+      },
+
+      {
+        "name": "Telkom",
+        "addres": "Johannesburg, Benoni",
+        "phone": "(+27 011 356 890",
+        "email": "infor@telkom.co.za",
+        "web": "http://www.telkom.co.za",
+        "membership": "bronze",
+        "imageUrl":"directory-img/Telkom.webp"
+        
+      },
+
+      {
+        "name": "Wyzetalk",
+        "addres": "Stelenbosch, Stelenbosch",
+        "phone": "(+27 021 346 678",
+        "email": "support@wyzetalk.com",
+        "web": "https://www.wyzetalk.com",
+        "membership": "bronze",
+        "imageUrl":"directory-img/wyzetalk.webp"
+        
+      }]
+
+    }
