@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+
+
+main {
+    padding: 1rem;
+    background-color: rgba(238, 238, 238, 0.653);
+    border-radius: 5px;
+    box-shadow: 10px 12px 10px #999999a0;
+    max-width: fit-content;
+}
+
