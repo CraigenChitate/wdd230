@@ -6,7 +6,7 @@ const captionDesc = document.querySelector('#weather-desc');
 const Speed = document.querySelector('#windSpeed');
 
 
-const url = "http://api.openweathermap.org/data/2.5/weather?q=Johannesburg,za&APPID=c39b8cb0c4372beb97c3c6f080a86d40";
+const url = "http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=c39b8cb0c4372beb97c3c6f080a86d40";
 
 
 async function apiFetch(apiURL) {
